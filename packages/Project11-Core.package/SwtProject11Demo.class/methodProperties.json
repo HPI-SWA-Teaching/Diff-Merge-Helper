@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"foobar" : "DS 4/24/2014 18:32" } }
+		"foobar" : "DS 4/24/2014 18:32",
+		"foobarNewMethod1" : "DS 4/28/2014 19:32" } }
