@@ -1,3 +1,3 @@
 as yet unclassified
-foobarNewMethod2
+foobarNewMethod1
 	^ 123456
