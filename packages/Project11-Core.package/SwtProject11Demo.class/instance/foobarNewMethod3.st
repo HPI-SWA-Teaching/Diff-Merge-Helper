@@ -1,3 +1,3 @@
 as yet unclassified
 foobarNewMethod3
-	^ 'Hallelujah!'
+	^ 'Hallelujah! bla bla bla blaaaaaabla'
