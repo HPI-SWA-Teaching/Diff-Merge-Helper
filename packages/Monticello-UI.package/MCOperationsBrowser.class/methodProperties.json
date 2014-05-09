@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"items:" : "cmm 10/2/2013 17:44" },
+	"instance" : {
+		"annotations" : "nk 11/10/2003 21:41",
+		"buttonSpecs" : "ab 8/22/2003 02:21",
+		"changeSetNameForInstall" : "nk 2/23/2005 08:04",
+		"defaultLabel" : "cmm 10/1/2013 14:42",
+		"installSelection" : "stephaneducasse 2/4/2006 20:47",
+		"invert" : "stephaneducasse 2/4/2006 20:47",
+		"list" : "ab 7/16/2003 14:39",
+		"methodListMenu:" : "bf 6/21/2011 13:48",
+		"perform:orSendTo:" : "nk 11/10/2003 20:55",
+		"revertSelection" : "ar 7/10/2009 22:46",
+		"revertUnchangedMethods" : "bf 6/21/2011 13:47",
+		"selectedClass" : "stephaneducasse 2/4/2006 20:47",
+		"selectedClassOrMetaClass" : "fbs 9/12/2013 08:39",
+		"selectedMessageCategoryName" : "stephaneducasse 2/4/2006 20:47",
+		"selectedMessageName" : "stephaneducasse 2/4/2006 20:47",
+		"selection" : "ab 7/16/2003 14:30",
+		"selection:" : "stephaneducasse 2/4/2006 20:47",
+		"text" : "ab 7/16/2003 14:40",
+		"text:" : "ab 7/16/2003 14:27",
+		"unchangedMethods" : "bf 6/13/2011 16:33",
+		"widgetSpecs" : "nice 1/20/2010 09:01" } }

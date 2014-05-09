@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selection" ],
+	"name" : "MCOperationsBrowser",
+	"pools" : [
+		 ],
+	"super" : "MCCodeTool",
+	"type" : "normal" }

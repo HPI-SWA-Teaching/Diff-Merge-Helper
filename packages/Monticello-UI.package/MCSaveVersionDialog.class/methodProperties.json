@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept" : "ab 8/24/2003 20:28",
+		"buttonSpecs" : "ab 8/24/2003 20:10",
+		"cancel" : "ab 8/24/2003 20:41",
+		"defaultExtent" : "ab 8/24/2003 20:07",
+		"defaultLabel" : "ab 8/24/2003 20:43",
+		"logMessage" : "ab 8/24/2003 20:41",
+		"logMessage:" : "stephaneducasse 2/4/2006 20:47",
+		"representsSameBrowseeAs:" : "cmm 2/14/2010 09:37",
+		"versionName" : "ab 8/24/2003 20:37",
+		"versionName:" : "stephaneducasse 2/4/2006 20:47",
+		"widgetSpecs" : "jrp 7/2/2005 10:33" } }
