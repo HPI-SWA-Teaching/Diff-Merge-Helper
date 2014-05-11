@@ -1,3 +1,3 @@
 as yet unclassified
 foobarNewMethod1
-	^ 1234675
+	^ 1234671
