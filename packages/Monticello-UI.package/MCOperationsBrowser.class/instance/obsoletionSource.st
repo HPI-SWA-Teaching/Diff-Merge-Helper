@@ -1,3 +1,4 @@
 text
 obsoletionSource
-	^ selection ifNil: [''] ifNotNil: [ selection operation obsoletion source]
+	"todo: avoid breaking law of demeter"
+	^ selection ifNil: [''] ifNotNil: [ selection isConflict ifTrue: [ selection operation obsoletion source ] ifFalse: [ '' ] ] 
