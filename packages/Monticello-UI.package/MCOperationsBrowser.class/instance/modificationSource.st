@@ -1,3 +1,4 @@
 text
 modificationSource
-	^ selection ifNil: [''] ifNotNil: [ selection operation modification source]
+	"todo: avoid breaking law of demeter"
+	^ selection ifNil: [''] ifNotNil: [ selection isConflict ifTrue: [ selection operation modification source ] ifFalse: [ '' ] ] 
