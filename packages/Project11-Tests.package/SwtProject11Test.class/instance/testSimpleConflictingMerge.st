@@ -3,6 +3,8 @@ testSimpleConflictingMerge
 	|workingCopy version methodIndex oldMethodDef newMethodDef snapshot1 snapshot2 snapshot3 merger package|
 	
 	package := 'Project11-Core'.
+	
+	Transcript show: '### testSimpleConflictingMerge starting'.
 
 	workingCopy := MCWorkingCopy forPackage: (MCPackage new name: package).
 	version := workingCopy newVersionWithName: package message:''.
@@ -32,5 +34,6 @@ testSimpleConflictingMerge
 	snapshot1 definitions at: methodIndex put: newMethodDef.
 	
 	merger := MCThreeWayMerger base: snapshot1 target: snapshot2 ancestor: snapshot3.
+	Transcript show: 'merger conflicts: ', merger conflicts.
 	self assert: merger notNil description: 'merger must not be nil'.	
 	self assert: merger conflicts notNil description: 'merger conflicts must not be nil'
