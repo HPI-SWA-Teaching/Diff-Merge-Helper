@@ -3,6 +3,8 @@ testSimpleConflictingMerge
 	|workingCopy version methodIndex oldMethodDef newMethodDef snapshot1 snapshot2 snapshot3 merger package|
 	
 	package := 'Project11-Core'.
+	
+	Transcript show: '### testSimpleConflictingMerge starting'.
 
 	workingCopy := MCWorkingCopy forPackage: (MCPackage new name: package).
 	version := workingCopy newVersionWithName: package message:''.
