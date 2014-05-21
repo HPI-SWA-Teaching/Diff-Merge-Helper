@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"new" : "avi 9/13/2004 18:03" },
+	"instance" : {
+		"addAllAncestorsOf:to:" : "avi 9/11/2004 14:19",
+		"addAllVersionInfos:" : "avi 8/31/2003 21:30",
+		"addToCurrentLayer:" : "stephaneducasse 2/4/2006 20:47",
+		"addVersionInfo:" : "avi 9/11/2004 10:49",
+		"allAncestorsOf:" : "stephaneducasse 2/4/2006 20:47",
+		"initialize" : "stephaneducasse 2/4/2006 20:47",
+		"knownAncestorsOf:" : "avi 9/11/2004 14:37",
+		"layers" : "ab 8/17/2003 15:53",
+		"popLayer" : "stephaneducasse 2/4/2006 20:47",
+		"processVersionInfo:" : "avi 9/11/2004 10:39",
+		"pushLayer" : "stephaneducasse 2/4/2006 20:47",
+		"registerStepChildrenOf:seen:" : "avi 9/11/2004 14:34",
+		"sortedVersionInfos" : "stephaneducasse 2/4/2006 20:47",
+		"stepParentsOf:" : "avi 9/11/2004 10:40" } }
