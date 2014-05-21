@@ -16,7 +16,7 @@ testSimpleConflictingMerge
 		selector: ( oldMethodDef selector )
 		category: ( oldMethodDef category )
 		timeStamp: ( oldMethodDef timeStamp )
-		source: ( oldMethodDef source, '42' ).
+		source: ( oldMethodDef source, ' "neuer Code A"' ).
 	(snapshot3 definitions) remove: methodIndex ifAbsent: [].		
 	
 	snapshot2 definitions at: methodIndex put: newMethodDef.
@@ -27,7 +27,7 @@ testSimpleConflictingMerge
 		selector: ( oldMethodDef selector )
 		category: ( oldMethodDef category )
 		timeStamp: ( oldMethodDef timeStamp )
-		source: ( oldMethodDef source, '21' ).
+		source: ( oldMethodDef source, ' "neuer Code B"' ).
 		
 	snapshot1 definitions at: methodIndex put: newMethodDef.
 	
