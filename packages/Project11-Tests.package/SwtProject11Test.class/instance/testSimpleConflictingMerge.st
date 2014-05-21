@@ -32,4 +32,5 @@ testSimpleConflictingMerge
 	snapshot1 definitions at: methodIndex put: newMethodDef.
 	
 	merger := MCThreeWayMerger base: snapshot1 target: snapshot2 ancestor: snapshot3.
-	self assert: (merger conflicts notNil).
+	Transcript show: 'merger conflicts: ', merger conflicts.
+	self assert: merger conflicts notNil
