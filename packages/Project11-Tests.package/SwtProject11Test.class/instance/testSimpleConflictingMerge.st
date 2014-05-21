@@ -4,21 +4,28 @@ testSimpleConflictingMerge
 	
 	package := 'Project11-Core'.
 	
-	Transcript show: '### testSimpleConflictingMerge starting'.
+	Transcript cr; show: '### start TestCase: testSimpleConflictingMerge'; cr.
 
 	workingCopy := MCWorkingCopy forPackage: (MCPackage new name: package).
+	Transcript show: 'workingCopy: ', workingCopy; cr.
 	version := workingCopy newVersionWithName: package message:''.
+	Transcript show: 'version ', version; cr.
 	snapshot1 := version snapshot.
+	Transcript show: 'snapshot1 ', snapshot1; cr.	
 	snapshot2 := version snapshot deepCopy.
+	Transcript show: 'snapshot2 ', snapshot2; cr.
 	snapshot3 := version snapshot deepCopy.
+	Transcript show: 'snapshot3 ', snapshot3; cr.	
 	methodIndex := 5.
 	oldMethodDef := (snapshot2 definitions at: methodIndex).
+	Transcript show: 'oldMethodDef ', oldMethodDef; cr.
 	newMethodDef := MCMethodDefinition
 		className: ( oldMethodDef className)
 		selector: ( oldMethodDef selector )
 		category: ( oldMethodDef category )
 		timeStamp: ( oldMethodDef timeStamp )
 		source: ( oldMethodDef source, '42' ).
+	Transcript show: 'newMethodDef ', newMethodDef; cr.
 	(snapshot3 definitions) remove: methodIndex ifAbsent: [].		
 	
 	snapshot2 definitions at: methodIndex put: newMethodDef.
@@ -32,6 +39,7 @@ testSimpleConflictingMerge
 		source: ( oldMethodDef source, '21' ).
 		
 	snapshot1 definitions at: methodIndex put: newMethodDef.
+	Transcript show: 'snapshot1 ', snapshot1; cr.
 	
 	merger := MCThreeWayMerger base: snapshot1 target: snapshot2 ancestor: snapshot3.
 	Transcript show: 'merger conflicts: ', merger conflicts.
