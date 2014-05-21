@@ -1,21 +1,14 @@
-as yet unclassified
-printFromMerge: aDiff3Merge
-	|merge|
-	merge := aDiff3Merge.
-	
-	merge do: [: dict |
-	(dict key = #ok) ifTrue: [
-		Transcript show: 'OK-Blocks: '; cr.
-		dict value do: [: symbol |
-			Transcript show: symbol
-		].
-	] ifFalse:[
-		Transcript show: 'Conflict-Blocks: '; cr.
-		Transcript show: 'Links: '; cr.
-		Transcript show: dict value left; cr.
-		Transcript show: 'Original '; cr.
-		Transcript show: dict value original; cr.
-		Transcript show: 'Rechts '; cr.
-		Transcript show: dict value right; cr.
-	].
-].
+printing
+printFromMerge: aDiff3Merge 
+	| output |
+	output := AttributedTextStream new.
+	aDiff3Merge
+		do: [:dict | (dict key = #ok)
+				ifTrue: [output nextPutAll: dict value]
+				ifFalse: [output currentAttributes: {TextColor red};
+						 nextPutAll: dict value left;
+						 currentAttributes: {TextColor green};
+						 nextPutAll: dict value original;
+						 currentAttributes: {TextColor blue};
+						 nextPutAll: dict value right]].
+	Transcript show: output contents
