@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCommonChunkTo:between:and:" : "tonyg 6/16/2008 23:30",
+		"computeConflictFrom:to:hunks:" : "tonyg 12/31/2009 13:12",
+		"computeHunks" : "tonyg 6/16/2008 23:14",
+		"diffClass" : "tonyg 6/16/2008 22:28",
+		"diffClass:" : "tonyg 6/16/2008 22:28",
+		"file0" : "tonyg 6/16/2008 22:28",
+		"file0:" : "tonyg 6/16/2008 22:28",
+		"file1" : "tonyg 6/16/2008 22:28",
+		"file1:" : "tonyg 6/16/2008 22:28",
+		"file2" : "tonyg 6/16/2008 22:28",
+		"file2:" : "tonyg 6/16/2008 22:28",
+		"fileMap" : "tonyg 6/16/2008 23:59",
+		"findOverlapStartingAt:in:" : "tonyg 12/31/2009 12:58",
+		"merge" : "tonyg 6/17/2008 01:22",
+		"merge:" : "tonyg 6/17/2008 00:44",
+		"mergeClean" : "tonyg 6/17/2008 01:22",
+		"mergeIndices" : "tonyg 12/31/2009 12:48" } }

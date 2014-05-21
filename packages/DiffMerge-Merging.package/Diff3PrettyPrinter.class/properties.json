@@ -1,0 +1,14 @@
+{
+	"category" : "DiffMerge-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Diff3PrettyPrinter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

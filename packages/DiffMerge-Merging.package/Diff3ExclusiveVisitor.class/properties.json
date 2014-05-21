@@ -1,0 +1,14 @@
+{
+	"category" : "DiffMerge-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 01:07",
+	"instvars" : [
+		 ],
+	"name" : "Diff3ExclusiveVisitor",
+	"pools" : [
+		 ],
+	"super" : "Diff3InclusiveVisitor",
+	"type" : "normal" }

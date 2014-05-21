@@ -1,0 +1,16 @@
+{
+	"category" : "DiffMerge-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 01:06",
+	"instvars" : [
+		"result",
+		"okLines",
+		"files" ],
+	"name" : "Diff3InclusiveVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "DiffMerge-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 01:03",
+	"instvars" : [
+		"left",
+		"original",
+		"right" ],
+	"name" : "Diff3Conflict",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
