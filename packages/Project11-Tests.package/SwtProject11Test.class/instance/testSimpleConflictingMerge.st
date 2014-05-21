@@ -1,6 +1,7 @@
 running
 testSimpleConflictingMerge
-	|workingCopy version methodIndex oldMethodDef newMethodDef snapshot1 snapshot2 snapshot3 merger package packageName |
+	"|workingCopy version methodIndex oldMethodDef newMethodDef snapshot1 snapshot2 snapshot3 merger package packageName |
+	
 	
 	packageName := 'Project11-Core'.
 	
@@ -44,3 +45,4 @@ testSimpleConflictingMerge
 	merger := MCThreeWayMerger base: snapshot1 target: snapshot2 ancestor: snapshot3.
 	self assert: merger notNil description: 'merger must not be nil'.	
 	self assert: merger conflicts notNil description: 'merger conflicts must not be nil'
+	"
