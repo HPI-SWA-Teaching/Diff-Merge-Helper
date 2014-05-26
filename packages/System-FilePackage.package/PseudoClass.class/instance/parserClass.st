@@ -1,0 +1,4 @@
+private
+parserClass
+
+	^ Compiler parserClass

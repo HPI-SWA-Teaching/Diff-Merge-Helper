@@ -1,0 +1,14 @@
+{
+	"category" : "System-FilePackage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 9/23/2013 08:58",
+	"instvars" : [
+		 ],
+	"name" : "ClassDiffBuilder",
+	"pools" : [
+		 ],
+	"super" : "TextDiffBuilder",
+	"type" : "normal" }
