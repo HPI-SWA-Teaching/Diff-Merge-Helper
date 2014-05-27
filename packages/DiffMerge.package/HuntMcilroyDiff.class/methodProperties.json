@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computeEquivalenceClasses" : "tonyg 6/16/2008 20:50",
+		"emptyCaches" : "tonyg 6/16/2008 21:29",
+		"findCandidateFrom:forLine:startingAt:" : "tonyg 7/29/2011 13:00",
+		"longestCommonSubsequence" : "tonyg 7/29/2011 13:06",
+		"mergeCandidates:file1index:file2indices:" : "tonyg 7/29/2011 13:09",
+		"postprocessCandidateChain:" : "tonyg 6/16/2008 20:59",
+		"storeCandidate:at:in:" : "tonyg 7/29/2011 13:02" } }

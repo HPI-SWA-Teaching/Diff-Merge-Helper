@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"negativeSize:" : "tonyg 12/31/2009 12:44",
+		"offset:length:" : "tonyg 6/16/2008 23:48" },
+	"instance" : {
+		"<" : "tonyg 6/17/2008 01:09",
+		"=" : "tonyg 6/16/2008 22:11",
+		"correctForSkewFrom:to:" : "tonyg 12/31/2009 13:10",
+		"destructiveMergeWith:" : "tonyg 12/31/2009 11:46",
+		"extractFrom:" : "tonyg 6/17/2008 01:09",
+		"lastIndex" : "tonyg 6/17/2008 01:10",
+		"length" : "tonyg 6/16/2008 21:15",
+		"length:" : "tonyg 6/16/2008 23:48",
+		"offset" : "tonyg 6/16/2008 21:15",
+		"offset:" : "tonyg 6/16/2008 23:48",
+		"printOn:" : "tonyg 6/16/2008 21:39" } }

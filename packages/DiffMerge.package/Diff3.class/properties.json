@@ -1,0 +1,17 @@
+{
+	"category" : "DiffMerge-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 01:00",
+	"instvars" : [
+		"file1",
+		"file0",
+		"file2",
+		"diffClass" ],
+	"name" : "Diff3",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

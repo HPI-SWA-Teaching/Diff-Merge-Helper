@@ -1,0 +1,1 @@
+(name 'DiffMerge-ul.7'message '- added another diff algorithm (from squeak trunk)- refactored the tests'id '5ad0a2f7-24b3-8743-a7cd-f9a627dc97dd'date '6 January 2010'time '3:56:11 am'author 'ul'ancestors ((id 'eaaf6c7b-e8c8-ff44-a1c8-1baf723a8664') (id '3960485d-6f9c-4a31-b5c8-096795036f25'))stepChildren ())

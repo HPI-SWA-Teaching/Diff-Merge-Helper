@@ -1,0 +1,14 @@
+{
+	"category" : "DiffMerge-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HuntMcilroyDiffTests",
+	"pools" : [
+		 ],
+	"super" : "DiffTests",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "DiffMerge-Diffing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 00:51",
+	"instvars" : [
+		"offset",
+		"length" ],
+	"name" : "DiffChunk",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

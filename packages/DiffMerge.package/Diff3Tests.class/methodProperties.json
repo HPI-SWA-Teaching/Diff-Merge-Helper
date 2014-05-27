@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"instance" : "tonyg 6/16/2008 22:44",
+		"testMergeExcludingFalseConflicts" : "tonyg 6/17/2008 00:45",
+		"testMergeIncludingFalseConflicts" : "tonyg 6/17/2008 00:45",
+		"testMergeIndices" : "tonyg 6/17/2008 00:30",
+		"testOverlaps1" : "tonyg 12/31/2009 11:06",
+		"testOverlaps2" : "tonyg 12/31/2009 11:07",
+		"testOverlaps3" : "tonyg 12/31/2009 11:11",
+		"testOverlaps4" : "tonyg 12/31/2009 11:13" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "DiffMerge-Diffing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 00:59",
+	"instvars" : [
+		"file1index",
+		"file2index",
+		"chain" ],
+	"name" : "HuntMcilroyDiffCandidate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

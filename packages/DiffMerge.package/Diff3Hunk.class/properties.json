@@ -1,0 +1,16 @@
+{
+	"category" : "DiffMerge-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 01:04",
+	"instvars" : [
+		"side",
+		"oldChunk",
+		"newChunk" ],
+	"name" : "Diff3Hunk",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

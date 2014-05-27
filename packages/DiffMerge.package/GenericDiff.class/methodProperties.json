@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCommonBlock:ifNonEmptyTo:" : "tonyg 6/16/2008 21:57",
+		"comm" : "tonyg 8/9/2008 12:33",
+		"diff" : "tonyg 6/17/2008 01:15",
+		"diffIndices" : "tonyg 8/9/2008 12:26",
+		"emptyCaches" : "tonyg 6/17/2008 01:16",
+		"file1" : "tonyg 6/16/2008 21:29",
+		"file1:" : "tonyg 6/16/2008 21:30",
+		"file2" : "tonyg 6/16/2008 21:30",
+		"file2:" : "tonyg 6/16/2008 21:30",
+		"longestCommonSubsequence" : "tonyg 6/17/2008 01:18",
+		"maybeAddCommonBlock:to:p1:p2:limit1:limit2:" : "tonyg 8/9/2008 12:30",
+		"maybeAddDiffChunkTo:p1:p2:limit1:limit2:" : "tonyg 8/9/2008 12:22" } }

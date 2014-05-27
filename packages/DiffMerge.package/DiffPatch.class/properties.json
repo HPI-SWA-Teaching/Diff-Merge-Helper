@@ -1,0 +1,15 @@
+{
+	"category" : "DiffMerge-Diffing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 00:54",
+	"instvars" : [
+		"chunks",
+		"snippets" ],
+	"name" : "DiffPatch",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

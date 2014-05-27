@@ -1,0 +1,1 @@
+(name 'DiffMerge-tonyg.6'message 'Copy test cases from synchrotron; fix bugs thus exposed. Essentially, correct for skew and avoid an off-by-one error.'id '3960485d-6f9c-4a31-b5c8-096795036f25'date '31 December 2009'time '1:14:27 pm'author 'tonyg'ancestors ((id '5a38f608-597b-488b-9d8f-c9b5917b813b'))stepChildren ())

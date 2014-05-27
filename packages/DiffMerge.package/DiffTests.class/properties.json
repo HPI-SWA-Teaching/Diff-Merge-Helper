@@ -1,0 +1,14 @@
+{
+	"category" : "DiffMerge-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DiffTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

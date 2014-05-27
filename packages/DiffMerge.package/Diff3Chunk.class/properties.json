@@ -1,0 +1,14 @@
+{
+	"category" : "DiffMerge-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 01:02",
+	"instvars" : [
+		"side" ],
+	"name" : "Diff3Chunk",
+	"pools" : [
+		 ],
+	"super" : "DiffChunk",
+	"type" : "normal" }

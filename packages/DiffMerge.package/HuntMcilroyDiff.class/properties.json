@@ -1,0 +1,14 @@
+{
+	"category" : "DiffMerge-Diffing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 6/17/2008 00:58",
+	"instvars" : [
+		"lcs" ],
+	"name" : "HuntMcilroyDiff",
+	"pools" : [
+		 ],
+	"super" : "GenericDiff",
+	"type" : "normal" }

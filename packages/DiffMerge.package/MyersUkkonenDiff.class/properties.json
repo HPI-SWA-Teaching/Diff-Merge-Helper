@@ -1,0 +1,14 @@
+{
+	"category" : "DiffMerge-Diffing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 1/6/2010 03:44",
+	"instvars" : [
+		"lcs" ],
+	"name" : "MyersUkkonenDiff",
+	"pools" : [
+		 ],
+	"super" : "GenericDiff",
+	"type" : "normal" }
