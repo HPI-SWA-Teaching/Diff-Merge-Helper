@@ -1,3 +1,3 @@
 accessing
 ancestorSource
-	^ ancestor source
+	^ ancestor ifNil: [nil] ifNotNil: [ancestor source]
