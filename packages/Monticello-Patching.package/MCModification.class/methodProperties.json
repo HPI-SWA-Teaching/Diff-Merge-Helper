@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"of:to:" : "cwp 11/28/2002 07:19" },
+		"of:to:" : "FB 5/27/2014 14:44",
+		"of:to:with:" : "FB 5/27/2014 14:03" },
 	"instance" : {
-		"applyTo:" : "ab 5/24/2003 16:12",
+		"ancestorSource" : "FB 5/27/2014 14:00",
+		"applyTo:" : "FB 5/27/2014 14:03",
 		"baseDefinition" : "ab 6/1/2003 13:10",
 		"definition" : "cwp 11/28/2002 06:55",
 		"fromSource" : "ab 7/18/2003 16:44",
 		"initializeWithBase:target:" : "stephaneducasse 2/4/2006 20:47",
+		"initializeWithLocal:target:ancestor:" : "FB 5/27/2014 12:32",
 		"inverse" : "ab 8/22/2003 02:27",
 		"isClassPatch" : "nk 2/25/2005 17:29",
 		"isModification" : "cwp 11/28/2002 07:23",

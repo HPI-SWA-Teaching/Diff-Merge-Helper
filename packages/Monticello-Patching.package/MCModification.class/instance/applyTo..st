@@ -1,3 +1,4 @@
 accessing
 applyTo: anObject
-	anObject modifyDefinition: obsoletion to: modification
+
+	anObject modifyDefinition: obsoletion to: modification with: ancestor

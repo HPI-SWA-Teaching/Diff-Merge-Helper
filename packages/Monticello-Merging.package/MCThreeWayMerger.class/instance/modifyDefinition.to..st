@@ -1,5 +1,6 @@
 as yet unclassified
 modifyDefinition: baseDefinition to: targetDefinition
+1 halt.
 	index
 		definitionLike: baseDefinition
 		ifPresent: [:other | other = baseDefinition

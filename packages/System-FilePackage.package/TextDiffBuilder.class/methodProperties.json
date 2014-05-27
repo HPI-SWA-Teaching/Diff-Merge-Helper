@@ -2,8 +2,11 @@
 	"class" : {
 		"buildDisplayPatchFrom:to:" : "klub 12/27/2009 02:59",
 		"buildDisplayPatchFrom:to:inClass:prettyDiffs:" : "ul 12/27/2009 17:16",
+		"buildDisplayPatchFrom:to:with:inClass:prettyDiffs:" : "FB 5/27/2014 14:06",
 		"from:to:" : "ul 9/11/2013 01:02",
 		"from:to:ignoreLineEndings:" : "ul 9/11/2013 01:02",
+		"from:to:with:" : "FB 5/27/2014 13:58",
+		"from:to:with:ignoreLineEndings:" : "FB 5/27/2014 13:58",
 		"ignoreLineEndings" : "nice 2/25/2010 04:07",
 		"ignoreLineEndings:" : "nice 2/25/2010 03:57",
 		"initialize" : "klub 12/27/2009 01:26",

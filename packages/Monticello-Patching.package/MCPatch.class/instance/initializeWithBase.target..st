@@ -4,7 +4,7 @@ initializeWithBase: baseSnapshot target: targetSnapshot
 	operations := OrderedCollection new.
 	base := MCDefinitionIndex definitions: baseSnapshot definitions.
 	target := MCDefinitionIndex definitions: targetSnapshot definitions.
-	
+
 	target definitions do:
 		[:t |
 		base
