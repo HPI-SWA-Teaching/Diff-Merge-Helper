@@ -1,0 +1,1 @@
+I demonstrate that you can load MC snapshots into an environment.

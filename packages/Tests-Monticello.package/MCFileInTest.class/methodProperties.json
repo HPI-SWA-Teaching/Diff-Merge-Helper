@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alterInitialState" : "cwp 8/10/2003 02:08",
+		"assertFileOutFrom:canBeFiledInWith:" : "avi 2/17/2004 03:21",
+		"assertInitializersCalled" : "stephaneducasse 2/4/2006 20:47",
+		"assertNoChange" : "stephaneducasse 2/4/2006 20:47",
+		"assertSuccessfulLoadWith:" : "cwp 8/10/2003 02:30",
+		"setUp" : "stephaneducasse 2/4/2006 20:47",
+		"tearDown" : "ul 4/26/2011 05:27",
+		"testStWriter" : "ar 5/10/2010 20:53" } }

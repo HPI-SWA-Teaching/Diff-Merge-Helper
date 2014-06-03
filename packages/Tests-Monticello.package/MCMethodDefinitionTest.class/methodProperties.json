@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"override" : "eem 10/9/2010 17:15",
+		"ownPackage" : "ul 9/11/2012 18:04",
+		"setUp" : "ul 9/11/2012 18:09",
+		"tearDown" : "ul 9/11/2012 18:10",
+		"testCannotLoad" : "stephaneducasse 2/4/2006 20:47",
+		"testComparison" : "stephaneducasse 2/4/2006 20:47",
+		"testLoadAndUnload" : "stephaneducasse 2/4/2006 20:47",
+		"testPartiallyRevertOverrideMethod" : "stephaneducasse 2/4/2006 20:47",
+		"testRevertOldMethod" : "bf 5/4/2012 17:00",
+		"testRevertOverrideMethod" : "fbs 11/6/2013 18:53" } }

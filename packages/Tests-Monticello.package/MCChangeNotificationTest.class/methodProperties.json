@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"foreignMethod" : "bf 5/20/2005 16:19",
+		"modifiedEventFor:ofClass:" : "cwp 11/6/2004 22:32",
+		"setUp" : "cmm 1/19/2011 16:01",
+		"tearDown" : "ul 4/26/2011 05:27",
+		"testCoreMethodModified" : "bf 5/20/2005 19:54",
+		"testExtMethodModified" : "bf 5/20/2005 17:05",
+		"testForeignMethodModified" : "bf 5/20/2005 17:00" } }
