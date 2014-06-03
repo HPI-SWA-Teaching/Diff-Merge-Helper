@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"isAbstract" : "cwp 8/13/2003 12:11",
+		"suite" : "cwp 8/13/2003 11:56" },
+	"instance" : {
+		"assertDict:matchesInfo:" : "ul 12/12/2009 14:10",
+		"assertNoChange" : "stephaneducasse 2/4/2006 20:47",
+		"assertVersionInfoPresent" : "stephaneducasse 2/4/2006 20:47",
+		"deleteFile" : "cwp 8/7/2003 18:18",
+		"fileName" : "cmm 3/3/2011 14:59",
+		"fileStream" : "cwp 8/7/2003 18:16",
+		"setUp" : "stephaneducasse 2/4/2006 20:47",
+		"tearDown" : "ul 4/26/2011 05:28",
+		"testInstallFromFile" : "cwp 8/10/2003 16:25",
+		"testInstallFromStream" : "stephaneducasse 2/4/2006 20:47" } }
