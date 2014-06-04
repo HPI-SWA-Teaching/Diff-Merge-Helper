@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"text:side:" : "DS 6/4/2014 16:24" },
+	"instance" : {
+		"ancestor" : "DS 6/4/2014 13:20",
+		"ancestor:" : "DS 6/4/2014 13:20",
+		"choice" : "DS 6/4/2014 15:24",
+		"choice:" : "DS 6/4/2014 15:24",
+		"chooseAncestor" : "DS 6/4/2014 15:33",
+		"chooseLocal" : "DS 6/4/2014 15:24",
+		"chooseRemote" : "DS 6/4/2014 15:33",
+		"isConflict" : "DS 6/4/2014 13:04",
+		"local" : "DS 6/4/2014 13:20",
+		"local:" : "DS 6/4/2014 13:20",
+		"remote" : "DS 6/4/2014 13:20",
+		"remote:" : "DS 6/4/2014 13:20",
+		"result" : "DS 6/4/2014 16:19",
+		"sourceFrom:" : "DS 6/4/2014 16:27" } }

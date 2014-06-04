@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "DMMerger",
+		"cleanConflict",
+		"solved" ],
+	"name" : "Diff3ConflictBlock",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Diff3Block",
 	"type" : "normal" }

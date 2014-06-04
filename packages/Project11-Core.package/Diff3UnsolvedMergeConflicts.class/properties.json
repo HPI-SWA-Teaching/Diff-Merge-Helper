@@ -1,0 +1,14 @@
+{
+	"category" : "Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Diff3UnsolvedMergeConflicts",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

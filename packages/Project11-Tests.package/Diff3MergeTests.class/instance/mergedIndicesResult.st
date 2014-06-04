@@ -1,0 +1,3 @@
+helpers
+mergedIndicesResult
+	^ {((Diff3Chunk offset: 1 length: 12) side: #original) . (Diff3Conflict new left: (DiffChunk offset: 13 length: 5); original: (DiffChunk offset: 13 length: 4); right: (DiffChunk offset: 13 length: 4)) . ((Diff3Chunk offset: 17 length: 7) side: #original) . ((Diff3Chunk offset: 24 length: 5) side: #right) . ((Diff3Chunk offset: 24 length: 19) side: #original) . (Diff3Conflict new left: (DiffChunk offset: 44 length: 1); original: (DiffChunk offset: 43 length: 0); right: (DiffChunk offset: 48 length: 1)) . ((Diff3Chunk offset: 43 length: 1) side: #original)}

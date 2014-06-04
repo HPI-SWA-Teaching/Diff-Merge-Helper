@@ -1,0 +1,14 @@
+{
+	"category" : "Project11-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Diff3MergeTests",
+	"pools" : [
+		 ],
+	"super" : "ExtendedTestCase",
+	"type" : "normal" }

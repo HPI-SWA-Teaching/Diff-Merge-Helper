@@ -1,0 +1,17 @@
+{
+	"category" : "Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"local",
+		"ancestor",
+		"remote",
+		"choice" ],
+	"name" : "Diff3Block",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
