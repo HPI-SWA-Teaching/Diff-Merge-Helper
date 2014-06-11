@@ -1,3 +1,3 @@
 testing
 isSolved
-	^ solved or: self isCleanConflict
+	^ solved or: [self isCleanConflict]

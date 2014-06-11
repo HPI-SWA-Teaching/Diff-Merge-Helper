@@ -1,5 +1,5 @@
 running
 testFooBar2
-	"REMOTE!+"
-	"neue Zeile aus Remot-"
-	"Conflict"
+	"REMOTE!"
+	"neue Zeile aus Remote"
+	"Jaja"

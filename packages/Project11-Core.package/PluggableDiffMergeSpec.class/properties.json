@@ -1,0 +1,17 @@
+{
+	"category" : "Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"getMergeSelector",
+		"morph",
+		"builder",
+		"scroll1" ],
+	"name" : "PluggableDiffMergeSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggablePanelSpec",
+	"type" : "normal" }

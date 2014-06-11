@@ -7,8 +7,9 @@ test04Diff3BlockSelection
 	self
 		deny: merge isSolved;
 		deny: block2 isSolved;
-		should: [merge resultSource] raise: Diff3UnsolvedMergeConflicts.
-		
+		should: [merge resultSource] raise: Diff3UnsolvedMergeConflicts;
+		assert: block2 result equals: '<CONFLICT>'.
+
 	block2 chooseLocal.
 	self
 		assert: block2 isSolved;
