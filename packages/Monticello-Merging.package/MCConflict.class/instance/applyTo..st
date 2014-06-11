@@ -1,7 +1,6 @@
 as yet unclassified
 applyTo: anObject
 "chooseRemote: nil = nimm merged, true: nimm komplettes Remote, false: nimm komplettes Local"
-1 halt.
 	self isResolved ifFalse: [self error: 'Cannot continue until this conflict has been resolved'].
 	chooseRemote ifTrue: [operation applyTo: anObject].
 	chooseRemote ifNil: [

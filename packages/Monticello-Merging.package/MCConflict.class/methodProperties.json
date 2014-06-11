@@ -3,7 +3,7 @@
 		"operation:" : "ab 6/1/2003 13:07" },
 	"instance" : {
 		"annotations" : "ul 12/12/2009 14:10",
-		"applyTo:" : "FB 6/11/2014 15:01",
+		"applyTo:" : "DS 6/11/2014 19:27",
 		"chooseLocal" : "stephaneducasse 2/4/2006 20:47",
 		"chooseNewer" : "nk 10/21/2003 23:16",
 		"chooseOlder" : "nk 10/21/2003 23:22",
@@ -14,7 +14,7 @@
 		"isLocalNewer" : "nk 10/21/2003 23:11",
 		"isRemoteNewer" : "nk 10/21/2003 23:15",
 		"isResolved" : "ab 6/1/2003 13:02",
-		"localChosen" : "FB 6/11/2014 12:42",
+		"localChosen" : "DS 6/11/2014 19:27",
 		"localDefinition" : "ab 6/1/2003 13:10",
 		"operation" : "avi 9/19/2005 02:19",
 		"operation:" : "stephaneducasse 2/4/2006 20:47",
