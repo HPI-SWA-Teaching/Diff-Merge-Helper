@@ -10,7 +10,7 @@ baseline: spec
 				package: 'Monticello-Loading';
 				package: 'Monticello-Merging';
 				package: 'Monticello-Patching';
-				package: 'Monticello-Versioning';
+				package: 'Monticello-Versioning'
 				with: [spec requires: #('default')];
 				 yourself.
 			spec group: 'default' with: #('Project11-Core' 'DiffMerge' 'Monticello-Base' 'Monticello-Loading' 'Monticello-Patching' 'Monticello-Versioning');
