@@ -1,3 +1,4 @@
 choosing
 chooseRemote
-	self choice: #remote
+	self choice: #remote.
+	self resetCustomizedResult	

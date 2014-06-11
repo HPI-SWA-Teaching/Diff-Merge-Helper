@@ -9,7 +9,8 @@
 		"local",
 		"ancestor",
 		"remote",
-		"choice" ],
+		"choice",
+		"customizedResult" ],
 	"name" : "Diff3Block",
 	"pools" : [
 		 ],

@@ -1,0 +1,4 @@
+result
+customizedResult
+
+	^ customizedResult

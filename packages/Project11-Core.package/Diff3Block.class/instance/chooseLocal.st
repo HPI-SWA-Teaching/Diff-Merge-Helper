@@ -1,3 +1,4 @@
 choosing
 chooseLocal
-	self choice: #local
+	self choice: #local.
+	self resetCustomizedResult

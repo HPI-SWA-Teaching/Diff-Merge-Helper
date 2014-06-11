@@ -1,3 +1,6 @@
 result
 result
-	^ self sourceFrom: self choice
+	^ self customizedResult
+		ifNil: [self sourceFrom: self choice]
+		ifNotNil: [self customizedResult]
+	
