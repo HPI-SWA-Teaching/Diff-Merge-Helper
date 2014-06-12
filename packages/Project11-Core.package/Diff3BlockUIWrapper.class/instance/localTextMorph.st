@@ -1,0 +1,4 @@
+accessing
+localTextMorph
+
+	^ localTextMorph

@@ -1,4 +1,4 @@
 accessing
 customizedResult: aString
-	super customizedResult: aString.
-	self solved: true
+	self solved: true.
+	^ super customizedResult: aString.

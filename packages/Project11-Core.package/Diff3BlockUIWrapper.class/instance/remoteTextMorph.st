@@ -1,0 +1,4 @@
+accessing
+remoteTextMorph
+
+	^ remoteTextMorph

@@ -2,11 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildPanelFor:with:" : "DS 6/11/2014 21:52",
-		"buildWith:" : "DS 6/11/2014 10:46",
+		"buildPanelFor:with:" : "DS 6/12/2014 20:57",
+		"buildWith:" : "DS 6/12/2014 20:06",
+		"chooseBorderWidthFor:" : "DS 6/12/2014 19:54",
+		"chooseColorFor:" : "DS 6/12/2014 19:24",
 		"getMerge" : "DS 6/9/2014 16:50",
 		"getMerge:" : "DS 6/9/2014 16:48",
-		"newPanelWith:" : "CW 6/11/2014 14:56",
+		"newFinalTextMorphFor:" : "DS 6/12/2014 19:59",
+		"newLocalTextMorphFor:" : "DS 6/12/2014 19:59",
+		"newRemoteTextMorphFor:" : "DS 6/12/2014 19:56",
+		"newRowPanelWith:" : "DS 6/12/2014 20:06",
+		"newTextMorphWith:textSelector:acceptSelector:" : "DS 6/12/2014 19:51",
 		"newTextSpecWith:" : "DS 6/9/2014 20:12",
-		"nilToEmpty:" : "DS 6/9/2014 21:52",
-		"update:" : "DS 6/11/2014 19:24" } }
+		"rebuildPanel" : "DS 6/12/2014 19:35",
+		"setTextPropertiesFor:basedOn:" : "DS 6/12/2014 19:57",
+		"update:" : "DS 6/12/2014 20:04" } }

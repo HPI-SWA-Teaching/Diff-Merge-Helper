@@ -1,0 +1,3 @@
+constans
+choosenBorderColor
+	^ Color green

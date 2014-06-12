@@ -1,5 +1,5 @@
 building
-newPanelWith: builder
+newRowPanelWith: builder
 	| panel |
 	panel := builder pluggablePanelSpec new buildWith: builder.
 	panel layoutPolicy: TableLayout new;

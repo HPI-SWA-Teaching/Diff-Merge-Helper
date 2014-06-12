@@ -1,0 +1,3 @@
+constans
+noConflicColor
+	^ Color white

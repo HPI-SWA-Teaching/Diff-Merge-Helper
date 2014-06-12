@@ -1,0 +1,3 @@
+constans
+noContentBorderWidth
+	^ 0

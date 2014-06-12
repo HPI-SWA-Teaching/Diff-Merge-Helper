@@ -1,0 +1,3 @@
+constans
+notChoosenBorderColor
+	^ Color black

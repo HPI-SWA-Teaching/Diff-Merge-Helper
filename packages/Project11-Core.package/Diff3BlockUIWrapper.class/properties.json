@@ -1,0 +1,17 @@
+{
+	"category" : "Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"diff3Block",
+		"localTextMorph",
+		"finalTextMorph",
+		"remoteTextMorph" ],
+	"name" : "Diff3BlockUIWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
