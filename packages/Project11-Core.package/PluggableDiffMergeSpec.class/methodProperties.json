@@ -1,8 +1,11 @@
 {
 	"class" : {
-		 },
+		"labelChooseLocalButton" : "DS 6/13/2014 10:07",
+		"labelChooseRemoteButton" : "DS 6/13/2014 10:07" },
 	"instance" : {
-		"buildPanelFor:with:" : "DS 6/12/2014 20:57",
+		"addChooseButtonIfNeededTo:with:forSide:" : "DS 6/13/2014 10:09",
+		"addChooseButtonTo:with:forSide:" : "DS 6/13/2014 10:26",
+		"buildPanelFor:with:" : "DS 6/13/2014 10:26",
 		"buildWith:" : "DS 6/12/2014 20:06",
 		"chooseBorderWidthFor:" : "DS 6/12/2014 19:54",
 		"chooseColorFor:" : "DS 6/12/2014 19:24",
