@@ -9,7 +9,8 @@
 		"diff3Block",
 		"localTextMorph",
 		"finalTextMorph",
-		"remoteTextMorph" ],
+		"remoteTextMorph",
+		"updateMap" ],
 	"name" : "Diff3BlockUIWrapper",
 	"pools" : [
 		 ],

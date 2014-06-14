@@ -19,7 +19,7 @@ test07Diff3BlockUIWrapper
 		assert: 'CUSTOM' equals: wrapper finalTextMorph getText asString;
 		assert: merge isSolved.
 		
-	wrapper chooseRemote.
+	block2 chooseRemote.
 	self
 		assert: 'Kram' equals: block2 result;
 		assert: 'Kram' equals: wrapper finalTextMorph getText asString;

@@ -2,5 +2,6 @@ instance creation
 wrap: aDiff3Block
 
 	^ self new
-		diff3Block: aDiff3Block;
+		initializeDiff3Block: aDiff3Block;	
+		initializeUpdateMap;
 		yourself

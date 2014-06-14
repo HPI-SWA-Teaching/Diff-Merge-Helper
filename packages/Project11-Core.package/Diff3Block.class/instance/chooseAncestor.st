@@ -1,4 +1,5 @@
 choosing
 chooseAncestor
 	self choice: #ancestor.
-	self resetCustomizedResult
+	self resetCustomizedResult.
+	self changed: #ancestorChoosen
