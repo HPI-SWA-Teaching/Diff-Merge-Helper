@@ -1,5 +1,6 @@
 as yet unclassified
 diffMergeMorph: aSymbol
+
 	| diffMerge |
 	diffMerge := PluggableDiffMergeSpec new.
 	diffMerge 
