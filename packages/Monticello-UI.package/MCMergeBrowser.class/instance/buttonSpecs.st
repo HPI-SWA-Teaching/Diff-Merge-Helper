@@ -1,6 +1,6 @@
 as yet unclassified
 buttonSpecs
-	^ #((Merge merge 'Proceed with the merge' canMerge)
+	^ #((Merge merge 'Proceed with the merge')
 		 (Cancel cancel 'Cancel the merge')
 		('All Newer' chooseAllNewerConflicts 'Choose all newer conflict versions')
 		('All Older' chooseAllOlderConflicts 'Choose all older conflict versions')

@@ -1,8 +1,8 @@
 running
 testFooBar2
-	"REMOTE"
-	"neue Zeile aus Remote REMOTE!!!"
-	"Jajaa"
-	"+++++++++++++++"
-	"asdasd"
-	"lala"
+	"common Ancestor"
+	"iiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+	"bbbbbbbbbbbbbbbbbbbbbb"
+	"cccc"
+	"oooooooooooooooooo"
+	"lllllllllllllllllllll"

@@ -1,3 +1,3 @@
 as yet unclassified
 isResolved
-	^ chooseRemote notNil
+	^ chooseRemote notNil or: [self operation merge isSolved]
