@@ -1,27 +1,22 @@
 running
 test07Diff3BlockUIWrapper
-	| blocks block2 merge wrapper |
-	merge := self createDiff3Merge.
-	blocks := merge blocks.
-	block2 := (blocks at: 2).
-	wrapper := Diff3BlockUIWrapper wrap: block2.
-	wrapper finalTextMorph: (self mockFinalTextMorphOn: wrapper).
-	
-	self
-		assert: block2 equals: wrapper diff3Block;
-		assert: '<CONFLICT>' equals: block2 result.
-		
-	wrapper finalTextMorph unacceptedEditState: 'CUSTOM'.
-	wrapper finalTextMorph accept.	
-	self
-		assert: 'CUSTOM' equals: block2 result;
-		assert: 'CUSTOM' equals: wrapper finalTextMorph textMorph contents asString;
-		assert: 'CUSTOM' equals: wrapper finalTextMorph getText asString;
-		assert: merge isSolved.
-		
-	block2 chooseRemote.
-	self
-		assert: 'Kram' equals: block2 result;
-		assert: 'Kram' equals: wrapper finalTextMorph getText asString;
-		assert: 'Kram' equals: wrapper finalTextMorph textMorph contents asString;
-		assert: merge isSolved
+	| t1 t2 t3 t4 |
+	t3 := self createDiff3Merge.
+	t1 := t3 blocks.
+	t2 := t1 at: 2.
+	t4 := Diff3BlockUIWrapper wrap: t2.
+	t4
+		resultTextMorph: (self mockResultTextMorphOn: t4).
+	self assert: t2 equals: t4 diff3Block;
+		 assert: '<CONFLICT>' equals: t2 result.
+	t4 resultTextMorph unacceptedEditState: 'CUSTOM'.
+	t4 resultTextMorph accept.
+	self assert: 'CUSTOM' equals: t2 result;
+		 assert: 'CUSTOM' equals: t4 resultTextMorph textMorph contents asString;
+		 assert: 'CUSTOM' equals: t4 resultTextMorph getText asString;
+		 assert: t3 isSolved.
+	t2 chooseRemote.
+	self assert: 'Kram' equals: t2 result;
+		 assert: 'Kram' equals: t4 resultTextMorph getText asString;
+		 assert: 'Kram' equals: t4 resultTextMorph textMorph contents asString;
+		 assert: t3 isSolved
