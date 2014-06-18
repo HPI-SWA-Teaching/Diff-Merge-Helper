@@ -1,7 +1,7 @@
 updating
 updateTextMorphsAppearance
 	self
-		updateFinalTextMorphColor;
+		updateResultTextMorphColor;
 		updateLocalTextMorphAppearance;
 		updateRemoteTextMorphAppearance
 	

@@ -1,2 +1,3 @@
 running
 hhohohohohohoh
+	^ self

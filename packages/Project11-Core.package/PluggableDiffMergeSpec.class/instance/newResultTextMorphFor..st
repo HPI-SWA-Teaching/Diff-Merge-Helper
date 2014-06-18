@@ -1,10 +1,10 @@
 text morphs
-newFinalTextMorphFor: aDiff3BlockUIWrapper 
+newResultTextMorphFor: aDiff3BlockUIWrapper 
 	aDiff3BlockUIWrapper
-		finalTextMorph: (self
+		resultTextMorph: (self
 				newTextMorphWith: aDiff3BlockUIWrapper
 				textSelector: #result
 				acceptSelector: #customizedResult:from:).
-	self setTextPropertiesFor: aDiff3BlockUIWrapper finalTextMorph
+	self setTextPropertiesFor: aDiff3BlockUIWrapper resultTextMorph
 		basedOn: aDiff3BlockUIWrapper result.
-	^ aDiff3BlockUIWrapper finalTextMorph
+	^ aDiff3BlockUIWrapper resultTextMorph

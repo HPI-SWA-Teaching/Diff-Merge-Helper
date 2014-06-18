@@ -1,3 +1,4 @@
 running
 testFooBar3
-	"Test"
+	^ self
+	"äääää"

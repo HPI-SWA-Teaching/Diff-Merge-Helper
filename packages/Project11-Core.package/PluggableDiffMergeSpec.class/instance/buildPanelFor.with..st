@@ -5,8 +5,8 @@ buildPanelFor: aDiff3Block with: builder
 	wrapper := Diff3BlockUIWrapper wrap: aDiff3Block.
 	panel addMorphBack: (self newLocalTextMorphFor: wrapper).
 	self addChooseButtonIfNeededTo: panel with: wrapper forSide: #local.
-	panel addMorphBack: (self newFinalTextMorphFor: wrapper).
+	panel addMorphBack: (self newResultTextMorphFor: wrapper).
 	self addChooseButtonIfNeededTo: panel with: wrapper forSide: #remote.
 	panel addMorphBack: (self newRemoteTextMorphFor: wrapper).
-	wrapper updateFinalTextMorphColor.
+	wrapper updateResultTextMorphColor.
 	^ panel

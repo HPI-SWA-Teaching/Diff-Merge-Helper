@@ -8,7 +8,7 @@
 	"instvars" : [
 		"diff3Block",
 		"localTextMorph",
-		"finalTextMorph",
+		"resultTextMorph",
 		"remoteTextMorph",
 		"updateMap" ],
 	"name" : "Diff3BlockUIWrapper",

@@ -1,5 +1,5 @@
 updating
 updateTextMorphs
 
-	self finalTextMorph setText: self finalTextMorph getText.
+	self resultTextMorph setText: self resultTextMorph getText.
 	self updateTextMorphsAppearance
