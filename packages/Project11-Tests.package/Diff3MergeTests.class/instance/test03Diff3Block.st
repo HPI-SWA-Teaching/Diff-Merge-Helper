@@ -17,8 +17,7 @@ test03Diff3Block
 		assert: (blocks at: 2) ancestor equals: 'Text';
 		assert: (blocks at: 2) local equals: 'Stuff';
 		assert: (blocks at: 2) remote equals: 'Kram';		
-		assert: (blocks at: 3) ancestor equals: '
-	geht ';	
+		assert: (blocks at: 3) ancestor equals: '\	geht ' withCRs;	
 		assert: (blocks at: 4) remote equals: 'doch ';
 		assert: (blocks at: 5) ancestor equals: 'über mehrere Zeilen';		
 		assert: (blocks at: 6) ancestor equals: '';
