@@ -1,3 +1,3 @@
-constans
+constants
 noContentColor
 	^ Color transparent

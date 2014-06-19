@@ -3,7 +3,7 @@ updateResultTextMorphColor
 	| color |
 	color := self diff3Block isConflict
 		ifTrue: [self diff3Block isSolved
-			ifTrue: [self class solvedConflictColor]
-			ifFalse: [self class unsolvedConflictColor]]
-		ifFalse: [self class noConflicColor].
+			ifTrue: [Diff3Constants solvedConflictColor]
+			ifFalse: [Diff3Constants unsolvedConflictColor]]
+		ifFalse: [Diff3Constants noConflicColor].
 	self resultTextMorph color: color

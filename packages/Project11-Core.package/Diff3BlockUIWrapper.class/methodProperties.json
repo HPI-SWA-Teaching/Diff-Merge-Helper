@@ -1,16 +1,8 @@
 {
 	"class" : {
-		"choosenBorderColor" : "DS 6/12/2014 20:38",
-		"noConflicBorderWidth" : "DS 6/12/2014 19:54",
-		"noConflicColor" : "DS 6/12/2014 16:10",
-		"noContentBorderWidth" : "DS 6/12/2014 20:00",
-		"noContentColor" : "DS 6/12/2014 19:13",
-		"notChoosenBorderColor" : "DS 6/12/2014 20:38",
-		"solvedConflictColor" : "DS 6/12/2014 20:00",
-		"unsolvedConflictColor" : "DS 6/12/2014 20:00",
 		"wrap:" : "DS 6/14/2014 09:45" },
 	"instance" : {
-		"customizedResult:from:" : "DS 6/14/2014 09:52",
+		"customizedResult:from:" : "DS 6/19/2014 15:04",
 		"diff3Block" : "DS 6/12/2014 09:37",
 		"diff3Block:" : "DS 6/12/2014 09:37",
 		"initializeDiff3Block:" : "DS 6/14/2014 09:44",
@@ -30,7 +22,7 @@
 		"updateMap" : "DS 6/14/2014 09:45",
 		"updateMap:" : "DS 6/14/2014 09:45",
 		"updateRemoteTextMorphAppearance" : "DS 6/12/2014 20:45",
-		"updateResultTextMorphColor" : "DS 6/18/2014 19:41",
-		"updateTextMorphAppearanceFor:" : "DS 6/12/2014 21:18",
+		"updateResultTextMorphColor" : "DS 6/19/2014 15:03",
+		"updateTextMorphAppearanceFor:" : "DS 6/19/2014 15:03",
 		"updateTextMorphs" : "DS 6/18/2014 19:38",
 		"updateTextMorphsAppearance" : "DS 6/18/2014 19:40" } }

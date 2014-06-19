@@ -1,3 +1,3 @@
-constans
+constants
 noConflicColor
 	^ Color white

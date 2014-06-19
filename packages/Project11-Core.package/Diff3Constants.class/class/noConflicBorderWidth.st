@@ -1,3 +1,3 @@
-constans
+constants
 noConflicBorderWidth
 	^ 1

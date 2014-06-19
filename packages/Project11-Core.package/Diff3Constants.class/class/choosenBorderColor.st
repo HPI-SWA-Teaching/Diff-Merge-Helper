@@ -1,3 +1,3 @@
-constans
+constants
 choosenBorderColor
 	^ Color green

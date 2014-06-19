@@ -2,9 +2,9 @@ updating
 updateTextMorphAppearanceFor: aSymbol
 	(self textMorphFor: aSymbol) ifNotNil: [
 		| color |
-		color := self class notChoosenBorderColor.
+		color := Diff3Constants notChoosenBorderColor.
 		(self diff3Block isConflict
 			and: [self diff3Block isSolved]
 				and: [self diff3Block choice = aSymbol])
-					ifTrue: [color := self class choosenBorderColor].
+					ifTrue: [color := Diff3Constants choosenBorderColor].
 		(self textMorphFor: aSymbol) borderColor: color]

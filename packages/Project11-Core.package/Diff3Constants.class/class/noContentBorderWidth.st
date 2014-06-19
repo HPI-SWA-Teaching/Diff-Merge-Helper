@@ -1,3 +1,3 @@
-constans
+constants
 noContentBorderWidth
 	^ 0
