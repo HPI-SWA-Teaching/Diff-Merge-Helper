@@ -1,8 +1,7 @@
 running
 testFooBar2
 	"common Ancestor"
-	"xxxxx"
+	"yyyy"
 	"iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
 	"############"
 	"bbbbbbbbbbbbbbbbbbbbbb"
-	"uvw"

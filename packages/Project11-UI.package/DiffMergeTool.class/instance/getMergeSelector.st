@@ -1,3 +1,4 @@
 accessing
-getMerge
+getMergeSelector
+
 	^ getMergeSelector

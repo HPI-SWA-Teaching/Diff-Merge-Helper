@@ -1,13 +1,15 @@
 {
-	"category" : "Project11-Core",
+	"category" : "Project11-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "Diff3Constants",
+		"mainPanel",
+		"model",
+		"getMergeSelector" ],
+	"name" : "DiffMergeTool",
 	"pools" : [
 		 ],
 	"super" : "Object",
