@@ -14,5 +14,5 @@ widgetSpecs
 		"{ #(textMorph: obsoletionSource).   #(0     0.33 0.33 1). { 0. 30+self defaultAnnotationPaneHeight. 0. 0.}}.
 		{ #(textMorph: finalSource).              #(0.33 0.33 0.66 1). { 0. 30+self defaultAnnotationPaneHeight. 0. 0.}}.
 		{ #(textMorph: modificationSource). #(0.66 0.33 1      1). { 0. 30+self defaultAnnotationPaneHeight. 0. 0.}}."
-		{ #(diffMergeMorph: diff3Merge). #(0 0.4 1 1). { 0. 30+self defaultAnnotationPaneHeight. 0. 0.}}
+		{ #(diffMergeTool: diff3Merge). #(0 0.4 1 1). { 0. 30+self defaultAnnotationPaneHeight. 0. 0.}}
 	}

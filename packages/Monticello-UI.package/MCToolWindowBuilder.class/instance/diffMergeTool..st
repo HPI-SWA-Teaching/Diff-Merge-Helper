@@ -1,12 +1,10 @@
 as yet unclassified
-diffMergeMorph: aSymbol
+diffMergeTool: aSymbol
 
 	| diffMerge |
 	diffMerge := PluggableDiffMergeSpec new.
 	diffMerge 
 		model: tool;
-		getMerge: aSymbol;
-		"getText: aSymbol; 
-		setText: (aSymbol, ':') asSymbol;"
+		getMergeSelector: aSymbol;
 		frame: currentFrame.
 	window children add: diffMerge.
