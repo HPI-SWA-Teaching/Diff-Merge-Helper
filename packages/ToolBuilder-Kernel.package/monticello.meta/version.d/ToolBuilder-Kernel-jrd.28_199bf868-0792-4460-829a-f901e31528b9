@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Kernel-jrd.28'message 'Changed:- Added isDialog ivar and accessors to the PluggableWindowSpec.  Purpost of the flag it to hint that the window look and feel should be that of a dialog box.'id '199bf868-0792-4460-829a-f901e31528b9'date '10 December 2008'time '11:59:52 pm'author 'jrd'ancestors ((id 'ee1a03c2-d41b-478c-84f0-a858efa11698'))stepChildren ())

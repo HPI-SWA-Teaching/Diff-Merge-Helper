@@ -1,0 +1,18 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 21:58",
+	"instvars" : [
+		"getText",
+		"setText",
+		"selection",
+		"menu",
+		"askBeforeDiscardingEdits" ],
+	"name" : "PluggableTextSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

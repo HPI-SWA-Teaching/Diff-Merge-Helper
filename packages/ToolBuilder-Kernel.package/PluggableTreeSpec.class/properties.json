@@ -1,0 +1,28 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mvdg 3/21/2008 20:59",
+	"instvars" : [
+		"roots",
+		"getSelectedPath",
+		"setSelected",
+		"getChildren",
+		"hasChildren",
+		"label",
+		"icon",
+		"unusedVar",
+		"menu",
+		"keyPress",
+		"wantsDrop",
+		"dropItem",
+		"dropAccept",
+		"autoDeselect",
+		"dragItem" ],
+	"name" : "PluggableTreeSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Kernel-ar.13'message 'New features for UIManager:- request to edit a text and (optionally) perform an action when accepted- request a directory- request a file name matching some pattern'id '56343c4a-474f-5640-a3cd-0c97010e3df0'date '17 July 2005'time '12:30:49 am'author 'ar'ancestors ((id 'c0d71b92-0e46-0849-b42d-26527313e73c'))stepChildren ())

@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Kernel-ar.14'message '- add a closeAction to window spec so clients can be informed when a window is closed.- update tests to include close action.'id '0c12020a-a85e-cc4d-be89-6e1d5ec6ed44'date '17 September 2005'time '9:09:48 pm'author 'ar'ancestors ((id '56343c4a-474f-5640-a3cd-0c97010e3df0'))stepChildren ())

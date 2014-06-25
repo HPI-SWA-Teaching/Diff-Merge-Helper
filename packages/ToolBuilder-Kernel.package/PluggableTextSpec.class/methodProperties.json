@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"askBeforeDiscardingEdits" : "ar 10/4/2009 21:15",
+		"askBeforeDiscardingEdits:" : "ar 10/4/2009 21:14",
+		"buildWith:" : "ar 2/12/2005 18:16",
+		"getText" : "ar 2/9/2005 18:23",
+		"getText:" : "ar 2/9/2005 18:23",
+		"menu" : "ar 2/9/2005 18:25",
+		"menu:" : "ar 2/9/2005 18:26",
+		"selection" : "ar 2/9/2005 18:25",
+		"selection:" : "ar 2/9/2005 18:25",
+		"setText" : "ar 2/9/2005 18:24",
+		"setText:" : "ar 2/9/2005 18:24" } }

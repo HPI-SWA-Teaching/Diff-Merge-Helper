@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Kernel-cwp.5'message 'Added a name ivar to all specs so that the corresponding widgets can be found by name for testing. 'id '81d4f69b-cc38-4b6e-8bd8-d7903a12cfd3'date '25 April 2005'time '4:44:08 am'author 'cwp'ancestors ((id 'a227b18d-c9e0-ac46-8b21-8e04631efc28'))stepChildren ())

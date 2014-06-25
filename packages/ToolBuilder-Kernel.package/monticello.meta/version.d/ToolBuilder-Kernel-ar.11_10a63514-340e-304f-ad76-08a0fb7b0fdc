@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Kernel-ar.11'message '- allow retrieving widgets via their #name in using #widgetAt: and #widgetAt:ifAbsent:- add the tests for all ToolBuilder variants.'id '10a63514-340e-304f-ad76-08a0fb7b0fdc'date '14 July 2005'time '10:43:24 pm'author 'ar'ancestors ((id 'c2b6731a-3a2c-e147-b0be-3c40cc328b18'))stepChildren ())

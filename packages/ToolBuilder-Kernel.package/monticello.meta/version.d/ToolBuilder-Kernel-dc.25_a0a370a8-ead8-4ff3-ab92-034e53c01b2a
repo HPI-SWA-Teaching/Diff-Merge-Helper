@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Kernel-dc.25'message '- Fixes 6684: No way of specifying okLabel and cancelLabel in UIManager>>confirm:'id 'a0a370a8-ead8-4ff3-ab92-034e53c01b2a'date '10 January 2008'time '8:21:14 am'author 'dc'ancestors ((id '93eddcc9-598f-45bf-93c8-c42a831afb6b'))stepChildren ())

@@ -1,0 +1,4 @@
+accessing
+setSelected
+	"Answer the selector for setting the list selection"
+	^setSelected

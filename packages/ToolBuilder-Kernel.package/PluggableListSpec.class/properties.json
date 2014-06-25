@@ -1,0 +1,29 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 7/15/2005 11:54",
+	"instvars" : [
+		"list",
+		"getIndex",
+		"setIndex",
+		"getSelected",
+		"setSelected",
+		"menu",
+		"keyPress",
+		"autoDeselect",
+		"dragItem",
+		"dropItem",
+		"dropAccept",
+		"doubleClick",
+		"listSize",
+		"listItem",
+		"keystrokePreview",
+		"icon" ],
+	"name" : "PluggableListSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }
