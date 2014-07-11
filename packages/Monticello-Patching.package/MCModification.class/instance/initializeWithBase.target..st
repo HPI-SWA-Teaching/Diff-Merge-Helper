@@ -1,4 +1,4 @@
 initializing
 initializeWithBase: base target: target
-	obsoletion := base.
-	modification := target.
+
+	self initializeWithLocal: base target: target ancestor: nil

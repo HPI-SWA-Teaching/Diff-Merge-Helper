@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"toLineBasedMerge:" : "DS 7/8/2014 10:07" },
+	"instance" : {
+		"append:to:" : "DS 7/7/2014 22:36",
+		"blockContainsNewLine:" : "DS 7/10/2014 16:54",
+		"combineBlocksFrom:to:" : "DS 7/10/2014 17:17",
+		"expandConflictBlockAt:" : "DS 7/8/2014 17:56",
+		"expandConflictBlockToLeftAt:" : "DS 7/7/2014 22:22",
+		"expandConflictBlockToRightAt:" : "DS 7/7/2014 21:35",
+		"findLineStartFrom:" : "DS 7/10/2014 16:52",
+		"lf" : "DS 7/8/2014 09:45",
+		"lf:" : "DS 7/8/2014 09:45",
+		"lineBasedBlocks" : "DS 7/7/2014 20:38",
+		"lineBasedBlocks:" : "DS 7/7/2014 20:38",
+		"merge" : "DS 7/7/2014 20:38",
+		"merge:" : "DS 7/7/2014 20:38",
+		"oldBlocks" : "DS 7/7/2014 22:14",
+		"oldBlocks:" : "DS 7/7/2014 22:14",
+		"splitBlockFromRight:" : "DS 7/11/2014 14:35",
+		"splitStringFromRight:" : "DS 7/10/2014 17:01",
+		"transformToLineBasedMerge" : "DS 7/7/2014 22:57" } }
