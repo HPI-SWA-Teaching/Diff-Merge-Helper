@@ -1,5 +1,5 @@
 as yet unclassified
-combineBlocksFrom: start to: end
+combineBlocksFromRight: start to: end
 	| local ancestor remote blocksToRemove startIndex endIndex |
 	local := nil.
 	ancestor := nil.
@@ -7,11 +7,7 @@ combineBlocksFrom: start to: end
 	blocksToRemove := OrderedCollection new.
 	startIndex := start.
 	endIndex := end.
-	startIndex isZero
-		ifTrue: [startIndex := 1]
-		ifFalse: [self splitBlockFromRight: startIndex.
-			startIndex := startIndex + 1.
-			endIndex := endIndex + 1].
+	self splitBlockFromLeft: end.
 	startIndex to: endIndex do:
 		[:i |
 		(self lineBasedBlocks at: i) isConflict
@@ -23,7 +19,7 @@ combineBlocksFrom: start to: end
 				ancestor := self append: (self lineBasedBlocks at: i) result to: ancestor.
 				remote := self append: (self lineBasedBlocks at: i) result to: remote].
 		blocksToRemove add: (self lineBasedBlocks at: i)].
-	blocksToRemove removeLast.
+	blocksToRemove removeFirst.
 	blocksToRemove do:
 		[:block | self lineBasedBlocks remove: block].
 	^ Diff3ConflictBlock local: local ancestor: ancestor remote: remote

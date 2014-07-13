@@ -4,10 +4,11 @@
 	"instance" : {
 		"append:to:" : "DS 7/7/2014 22:36",
 		"blockContainsNewLine:" : "DS 7/10/2014 16:54",
-		"combineBlocksFrom:to:" : "DS 7/10/2014 17:17",
-		"expandConflictBlockAt:" : "DS 7/11/2014 14:46",
-		"expandConflictBlockToLeftAt:" : "DS 7/11/2014 14:50",
-		"expandConflictBlockToRightAt:" : "DS 7/11/2014 15:00",
+		"combineBlocksFromLeft:to:" : "VP 7/11/2014 16:20",
+		"combineBlocksFromRight:to:" : "VP 7/11/2014 16:15",
+		"expandConflictBlockAt:" : "VP 7/11/2014 16:20",
+		"expandConflictBlockToLeftAt:" : "VP 7/11/2014 15:41",
+		"expandConflictBlockToRightAt:" : "VP 7/11/2014 15:57",
 		"findLineStartToLeftFrom:" : "DS 7/11/2014 14:49",
 		"findLineStartToRightFrom:" : "DS 7/11/2014 14:50",
 		"lf" : "DS 7/8/2014 09:45",
@@ -18,6 +19,8 @@
 		"merge:" : "DS 7/7/2014 20:38",
 		"oldBlocks" : "DS 7/7/2014 22:14",
 		"oldBlocks:" : "DS 7/7/2014 22:14",
+		"splitBlockFromLeft:" : "VP 7/11/2014 15:51",
 		"splitBlockFromRight:" : "DS 7/11/2014 14:35",
+		"splitStringFromLeft:" : "VP 7/11/2014 15:49",
 		"splitStringFromRight:" : "DS 7/10/2014 17:01",
-		"transformToLineBasedMerge" : "DS 7/7/2014 22:57" } }
+		"transformToLineBasedMerge" : "VP 7/11/2014 16:17" } }

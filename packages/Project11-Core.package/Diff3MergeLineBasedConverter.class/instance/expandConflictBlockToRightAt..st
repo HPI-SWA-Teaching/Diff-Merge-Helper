@@ -4,5 +4,5 @@ expandConflictBlockToRightAt: anIndex
 	lineStartBlockIndex := self findLineStartToRightFrom: anIndex.
 	(anIndex < lineStartBlockIndex)
 	"TODO für rechte seite anpassen"
-		ifTrue: [^ self combineBlocksFrom: anIndex to: lineStartBlockIndex]
+		ifTrue: [^ self combineBlocksFromRight: anIndex to: lineStartBlockIndex]
 		ifFalse: [^ self lineBasedBlocks at: anIndex]

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"anotherText0" : "VP 7/11/2014 18:17",
 		"demo" : "CW2 5/13/2014 09:49",
 		"demo:" : "DS 4/24/2014 18:34",
 		"hhohohohohohoh" : "",
@@ -10,4 +11,4 @@
 		"testFooBar2" : "DS 6/19/2014 18:49",
 		"testFooBar3" : "DS2 6/15/2014 18:17",
 		"testFooBar3:" : "DS 6/23/2014 20:46",
-		"testFooBar4:" : "DS 6/30/2014 16:08" } }
+		"testFooBar4:" : "VP 7/11/2014 15:15" } }
