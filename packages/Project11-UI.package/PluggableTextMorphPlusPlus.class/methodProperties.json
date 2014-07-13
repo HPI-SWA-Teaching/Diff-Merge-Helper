@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newTextMorphWith:textSelector:acceptSelector:" : "yk 7/11/2014 18:17",
+		"on:text:accept:target:action:" : "yk 7/11/2014 20:04" },
+	"instance" : {
+		"actionSelector" : "yk 7/11/2014 18:24",
+		"actionSelector:" : "yk 7/11/2014 18:24",
+		"actionTarget" : "yk 7/11/2014 18:24",
+		"actionTarget:" : "yk 7/11/2014 18:25",
+		"mouseDown:" : "yk 7/11/2014 19:53",
+		"setText:" : "yk 7/11/2014 19:57",
+		"textMorphClass" : "yk 7/11/2014 18:16",
+		"updateTextMorph:selector:" : "yk 7/11/2014 20:04" } }
