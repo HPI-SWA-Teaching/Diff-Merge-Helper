@@ -2,7 +2,7 @@ text morphs
 newResultTextMorphFor: aDiff3BlockUIWrapper 
 	aDiff3BlockUIWrapper
 		resultTextMorph: (self
-				newTextMorphWith: aDiff3BlockUIWrapper
+				newEditableTextMorphWith: aDiff3BlockUIWrapper
 				textSelector: #result
 				acceptSelector: #customizedResult:from:).
 	self setTextPropertiesFor: aDiff3BlockUIWrapper resultTextMorph
