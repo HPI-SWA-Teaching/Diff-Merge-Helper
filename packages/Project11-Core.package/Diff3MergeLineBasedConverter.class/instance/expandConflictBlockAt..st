@@ -1,12 +1,17 @@
 as yet unclassified
 expandConflictBlockAt: anIndex
-	| previousBlock newBlock oldBlock |
-	newBlock := nil.
+	| oldBlock newBlockLeft newBlockRight |
+	anIndex isZero ifTrue:[^nil].
+	 newBlockLeft := nil.
+	newBlockRight:=nil.
 	oldBlock := self lineBasedBlocks at: anIndex.
-	previousBlock := self lineBasedBlocks at: anIndex-1 ifAbsent: [nil].
-	previousBlock ifNotNil: [newBlock := self expandConflictBlockToLeftAt: anIndex].
-	
-	self expandConflictBlockToRightAt: anIndex.
+	"previousBlock := self lineBasedBlocks at: anIndex-1 ifAbsent: [nil]."
+	"previousBlock ifNotNil: ["
+		newBlockLeft := self expandConflictBlockToLeftAt: anIndex
+		"]".
+	newBlockLeft ifNotNil: [self lineBasedBlocks at: (self lineBasedBlocks indexOf: oldBlock) put: newBlockLeft].
+	newBlockRight:=self expandConflictBlockToRightAt: (self lineBasedBlocks indexOf: newBlockLeft).
 	"TODO combine left+right"
-	newBlock ifNotNil: [self lineBasedBlocks at: (self lineBasedBlocks indexOf: oldBlock) put: newBlock]
+	newBlockRight ifNotNil: [self lineBasedBlocks at: (self lineBasedBlocks indexOf: newBlockLeft) put: newBlockRight]
+	
 	
