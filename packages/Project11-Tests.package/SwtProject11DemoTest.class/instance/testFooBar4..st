@@ -1,6 +1,6 @@
 running
 testFooBar4: aNumber
-	"Das ist ein Stuff lala
-	geht über wenige tada.
+	"Das ist ein Kram lala
+	geht über wenige values.
 	abc def1.
-	ein hallo weiterer xyz Beispieltext."
+	ein qwertz weiterer xyz Beispielooo."
