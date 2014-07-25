@@ -1,0 +1,15 @@
+{
+	"category" : "Project11-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actionTarget",
+		"actionSelector" ],
+	"name" : "PluggableTextMorphNotEditable",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorphPlus",
+	"type" : "normal" }

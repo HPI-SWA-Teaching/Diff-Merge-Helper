@@ -1,6 +1,6 @@
-as yet unclassified
-blockContainsNewLine: anIndex
+conversion
+blockContainsNewLine: anIndex 
 	(self lineBasedBlocks at: anIndex) ancestor
 		ifNil: [^ false]
-		ifNotNil: [^ (self lineBasedBlocks at: anIndex) ancestor contains: [:char | char = self lf]]
-	
+		ifNotNil: [^ (self lineBasedBlocks at: anIndex) ancestor
+				contains: [:char | char = self lf]]

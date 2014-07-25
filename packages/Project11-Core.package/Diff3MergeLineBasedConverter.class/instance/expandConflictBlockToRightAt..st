@@ -1,8 +1,9 @@
-as yet unclassified
+conversion
 expandConflictBlockToRightAt: anIndex
-	| lineStartBlockIndex |
+	| lineStartBlockIndex block |
+	block := self lineBasedBlocks at: anIndex.
+	(block ancestor size > 0) and: [(block ancestor last = self lf) ifTrue: [^ block]].
 	lineStartBlockIndex := self findLineStartToRightFrom: anIndex.
 	(anIndex < lineStartBlockIndex)
-	"TODO für rechte seite anpassen"
-		ifTrue: [^ self combineBlocksFromRight: anIndex to: lineStartBlockIndex]
-		ifFalse: [^ self lineBasedBlocks at: anIndex]
+		ifTrue: [^ self combineBlocksOnRightSideFrom: anIndex to: lineStartBlockIndex]
+		ifFalse: [^ block]

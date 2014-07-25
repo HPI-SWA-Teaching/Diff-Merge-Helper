@@ -4,7 +4,7 @@ classDefinitionString
 	defs := items select: [:ea | (ea isClassDefinition or: [ea isClassDefinitionExtension])
 			and: [ea className = classSelection]].
 
-	defs isEmpty ifTrue: [^ 'This class is not defined here.'].
+	defs isEmpty ifTrue: [^ self class notDefinedHereString].
 
 	^ String streamContents: [:stream | 
 		defs asArray sort 

@@ -6,8 +6,9 @@ createMergeFrom: local remote: remote ancestor: ancestor
 				 file1: local source;
 				 file2: remote source;
 				 diffClass: HuntMcilroyDiff) mergeIndices.
-	^ Diff3Merge 
-		mergedIndices: mergedIndices
-		local: local source 
-		ancestor: ancestorSource
-		remote: remote source
+	^ Diff3MergeLineBasedConverter
+		toLineBasedMerge: (Diff3Merge 
+			mergedIndices: mergedIndices
+			local: local source 
+			ancestor: ancestorSource
+			remote: remote source)

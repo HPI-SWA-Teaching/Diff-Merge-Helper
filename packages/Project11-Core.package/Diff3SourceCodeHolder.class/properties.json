@@ -1,0 +1,16 @@
+{
+	"category" : "Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DS 7/24/2014 00:06",
+	"instvars" : [
+		"local",
+		"ancestor",
+		"remote" ],
+	"name" : "Diff3SourceCodeHolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

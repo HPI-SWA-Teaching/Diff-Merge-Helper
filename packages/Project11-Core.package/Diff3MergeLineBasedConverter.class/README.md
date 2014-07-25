@@ -1,0 +1,3 @@
+I convert a Diff3Merge into a new Diff3Merge with line based conflicts. The Diff3 merge algorithm works on a character level, i.e. if there are several conflicts in a single line of code, these conflicts will be placed into different conflict blocks. For an interactive merge GUI, this is difficult to display in a way that the user can still perform a useful merge.
+This class collects all Diff3ConflictBlocks of a Diff3Merge and expands them so that they and the block before end with a new line character, i.e. the merge conflict is line based.
+I need to know the new line character to detect lines.

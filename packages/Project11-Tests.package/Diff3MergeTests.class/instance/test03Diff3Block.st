@@ -1,7 +1,7 @@
 running
 test03Diff3Block
 	| blocks |
-	blocks := self createDiff3Merge blocks.
+	blocks := self merge blocks.
 	self 
 		deny: (blocks at: 1) isConflict;
 		assert: (blocks at: 2) isConflict;

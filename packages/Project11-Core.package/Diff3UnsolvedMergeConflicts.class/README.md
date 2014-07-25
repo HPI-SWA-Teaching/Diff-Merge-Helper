@@ -1,0 +1,1 @@
+I am thrown, if there is an unsolved merge conflict which requires user interaction.

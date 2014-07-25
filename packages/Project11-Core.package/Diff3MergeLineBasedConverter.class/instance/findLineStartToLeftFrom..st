@@ -1,8 +1,6 @@
-as yet unclassified
-findLineStartToLeftFrom: anIndex
-"find the first non-conflict block containing a newline."
+conversion
+findLineStartToLeftFrom: anIndex 
 	(1 to: anIndex - 1)
-		reverseDo: [:i | (self lineBasedBlocks at: i) isConflict
-				ifFalse: [(self blockContainsNewLine: i)
-						ifTrue: [^ i]]].
+		reverseDo: [:i | (self blockContainsNewLine: i)
+				ifTrue: [^ i]].
 	^ 0

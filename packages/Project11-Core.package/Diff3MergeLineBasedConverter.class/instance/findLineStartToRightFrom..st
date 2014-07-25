@@ -1,8 +1,6 @@
-as yet unclassified
-findLineStartToRightFrom: anIndex
-"find the first non-conflict block containing a newline."
+conversion
+findLineStartToRightFrom: anIndex 
 	(anIndex + 1 to: self lineBasedBlocks size)
-		do: [:i | (self lineBasedBlocks at: i) isConflict
-				ifFalse: [(self blockContainsNewLine: i)
-						ifTrue: [^ i]]].
-	^ 0
+		do: [:i | (self nonConflictBlockContainsNewline: i)
+						ifTrue: [^ i]].
+	^ self lineBasedBlocks size + 1

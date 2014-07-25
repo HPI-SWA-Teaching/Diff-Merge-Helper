@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"forSnapshot:" : "ab 7/19/2003 18:03" },
+		"forSnapshot:" : "ab 7/19/2003 18:03",
+		"notDefinedHereString" : "DS 7/13/2014 23:16" },
 	"instance" : {
 		"allClassNames" : "hmm 4/16/2010 22:07",
 		"annotations" : "nk 7/24/2003 13:40",
@@ -11,7 +12,7 @@
 		"categorySelection" : "cwp 7/10/2003 18:33",
 		"categorySelection:" : "stephaneducasse 2/4/2006 20:47",
 		"classCommentString" : "ab 7/18/2003 15:48",
-		"classDefinitionString" : "DS2 7/13/2014 23:14",
+		"classDefinitionString" : "DS 7/25/2014 14:00",
 		"classList" : "bf 9/9/2012 14:23",
 		"classListMenu:" : "nk 6/12/2004 14:01",
 		"classSelection" : "cwp 7/10/2003 18:28",
