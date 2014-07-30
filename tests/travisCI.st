@@ -8,12 +8,12 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
 
 Metacello new
   baseline: 'Project11';
-  repository: 'filetree://', gitPath, '/SWTI2014-Project-11/packages';
+  repository: 'filetree://', gitPath, '/Diff-Merge-Helper/packages';
   get.
 
 Metacello new
   baseline: 'Project11';
-  repository: 'filetree://', gitPath, '/SWTI2014-Project-11/packages';
+  repository: 'filetree://', gitPath, '/Diff-Merge-Helper/packages';
   load: 'TravisCI'.
 
 "Run the tests"
