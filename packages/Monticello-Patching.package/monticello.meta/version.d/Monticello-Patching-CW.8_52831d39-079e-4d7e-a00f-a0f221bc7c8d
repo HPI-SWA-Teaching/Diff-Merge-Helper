@@ -1,1 +1,0 @@
-(name 'Monticello-Patching-CW.8'message 'fixed some Monticello tests by checking whether ancestor is nil in MCDefinitionIndex'id '52831d39-079e-4d7e-a00f-a0f221bc7c8d'date '3 June 2014'time '3:16:06.091 pm'author 'CW'ancestors ((id '54441643-58c4-487f-8714-c2aa0af629e1'))stepChildren ())

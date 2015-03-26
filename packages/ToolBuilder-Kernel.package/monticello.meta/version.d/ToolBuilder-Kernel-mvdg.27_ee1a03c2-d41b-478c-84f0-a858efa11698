@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-mvdg.27'message 'Reshuffle inst vars to hopefully avoid package loading bug (related to removing and adding instvars)'id 'ee1a03c2-d41b-478c-84f0-a858efa11698'date '21 March 2008'time '9:02:33 pm'author 'mvdg'ancestors ((id 'a35d2e30-e289-40e6-b685-bc4c0bc3b627'))stepChildren ())

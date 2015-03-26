@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-mvdg.26'message 'Re-arrange instance variable declarations to make package load properly. Removed Gulik-ism (self assert: [ x isKindOf: Y }).'id 'a35d2e30-e289-40e6-b685-bc4c0bc3b627'date '21 March 2008'time '6:13:24 pm'author 'mvdg'ancestors ((id 'a0a370a8-ead8-4ff3-ab92-034e53c01b2a'))stepChildren ())

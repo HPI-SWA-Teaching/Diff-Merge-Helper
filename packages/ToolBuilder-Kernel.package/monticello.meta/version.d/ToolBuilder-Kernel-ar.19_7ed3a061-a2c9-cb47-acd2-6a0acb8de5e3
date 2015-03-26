@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-ar.19'message 'Styling hooks:- Provide PluggableCodePaneSpec which is a sub-type of PluggableTextSpec and assumed to be used specifically for code editing tools.'id '7ed3a061-a2c9-cb47-acd2-6a0acb8de5e3'date '18 August 2009'time '12:13:49 pm'author 'ar'ancestors ((id 'd2ff1d0e-7711-4396-abe3-d096e95bf109'))stepChildren ())

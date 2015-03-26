@@ -1,1 +1,2 @@
-d5e8b67b-7ae6-439a-af8d-f11916411137
+(name 'System-FilePackage-VP.3' message 'interated 3Diff in merge browser.
+output is printed in the middle.' id 'd5e8b67b-7ae6-439a-af8d-f11916411137' date '27 May 2014' time '4:58:31.143 pm' author 'VP' ancestors ((name 'System-FilePackage-FB.2' message 'Passing through the ancestor method definition to the PrettyTextDiffBuilder' id '75437d71-f3fb-394d-afe6-d1eecbc573df' date '27 May 2014' time '2:49:28.928 pm' author 'FB' ancestors ((name 'System-FilePackage-FB.1' message 'initial version' id '1fbfc47a-1537-4c4d-861c-fa86d64a8495' date '26 May 2014' time '12:29:40.348 pm' author 'FB' ancestors () stepChildren ())) stepChildren ())) stepChildren ())

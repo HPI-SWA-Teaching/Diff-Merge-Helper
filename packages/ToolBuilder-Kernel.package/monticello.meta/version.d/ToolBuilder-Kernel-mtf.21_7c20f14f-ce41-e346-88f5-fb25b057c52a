@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-mtf.21'message 'added an addList: method to PluggableListSpec. This turns a literal, easy-to-read array into a menu'id '7c20f14f-ce41-e346-88f5-fb25b057c52a'date '10 October 2007'time '3:50:26 pm'author 'mtf'ancestors ((id '2ec5bc95-64ec-074a-865f-cf92494e9a5c'))stepChildren ())

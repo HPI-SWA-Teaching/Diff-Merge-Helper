@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-ul.39'message '- added UIManager >> #chooseClassOrTrait:from: as a common way to select a class or trait from an environment (SystemDictionary)'id '68b3bc0b-91c7-8e4c-8ad1-1f9a1ae18f3a'date '12 December 2010'time '11:18:16.463 pm'author 'ul'ancestors ((id '8926588c-0e9a-9a4b-9fff-f6f8629ad0f4'))stepChildren ())

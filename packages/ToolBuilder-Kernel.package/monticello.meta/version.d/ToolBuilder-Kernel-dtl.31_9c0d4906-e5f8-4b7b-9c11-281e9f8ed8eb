@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-dtl.31'message 'Add UIManager>>request:initialAnswer:centerAt: to remove MVC dependency from MessageSet.'id '9c0d4906-e5f8-4b7b-9c11-281e9f8ed8eb'date '12 February 2010'time '9:58:39.069 pm'author 'dtl'ancestors ((id 'a504d465-9fe6-4a72-8977-15ba06a84a78'))stepChildren ())

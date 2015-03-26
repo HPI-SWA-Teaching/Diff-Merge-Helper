@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-dtl.37'message 'MVC fixes by Florin Mateoc to address debugger opening, including low space interrupt and user interrupt in MVC.'id '5143c819-3218-47df-a786-3be5a3ab0793'date '12 September 2010'time '3:44:20.172 pm'author 'dtl'ancestors ((id '0eabb89d-7ae2-45a8-808d-8bc867f71b5a'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Kernel-ar.7'message '- added some comments- added ToolBuilder>>close: closing widgets programatically- added ToolBuilder>>runModal: to support modal dialogs'id 'b18374f5-32bf-9c47-a581-84a8bb200dbd'date '5 June 2005'time '12:49:24 pm'author 'ar'ancestors ((id 'f8d22e81-ebca-0f45-89a2-5b8ae9b8a3b5'))stepChildren ())
